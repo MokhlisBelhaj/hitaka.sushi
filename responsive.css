@@ -1,69 +1,53 @@
-@media(max-width: 1085px){
-    /* navbar */
-nav{
-
-    align-items: center;
-    height: 128px;
-    width:auto;
-    display: flex;
-    background-color:#D9D9D9 ;
-    justify-content: space-between;
-}
-nav img {
-    width: 127px;
-    height: 127px;
-}
-nav a{
-    text-decoration: none;
-    font-family: 'Roboto';
-    font-style: normal;
-    color: black;
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 25px;
-    margin-right: 85px;
-    
-}
-
-    .con1{
-        width: auto;
-        height: auto;
-        margin-top: 26px;
-        background-image: url(IMAGE/p1.jpg);
-        background-size:cover;
-
-        
-    }  
-.con2{
-    width: auto;
-    height: auto;
-background-size: cover;}
-.con2 h6{ 
-    width:auto;
-    height:auto;
-}
-}
-@media(max-width: 739px){
-    nav a{
-        display: none;
-        
+@media(max-width: 700px){
+    .nav-links ul li{
+        display: block;
+        padding-bottom: 12%;
     }
-
-    
+    .nav-links ul li:first-child{
+        padding-top: 50px;
+    }
+    .nav-links{
+        position: absolute;
+        background: rgb(217, 217, 217);
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right:-2O0px;
+        text-align: center;
+        z-index: 2;
+        box-sizing: border-box;
+        border: 1px solid black;
+        border-top: 0;
+        transition: 1s;
+    }
+    nav .fa{
+        display: block;
+        color: black;
+        margin: 10px;
+        font-size: 26px;
+        cursor: pointer;
+    }
+    nav .fa-times{
+        text-align: left;
+    }
+    /* footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    left: 0px;
+    margin-top: 50px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(IMAGE/footerM.jpg);
+    background-size: cover;
+    background-position: reverse;
+    width: 100%;
 }
-@media(max-width: 430px){
-    footer{
-        display: flex;
-        justify-content: space-between;
-        /* height: 515px; */
-        left: 0px;
-        top: 1923px;
-        margin-top: 170px;
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(IMAGE/FOOTER.jpg);
-        background-size: cover;
-        background-position: center;
-        width: 100%;
-        
-        }
+.footercontact{
+    justify-items: center;
+    align-self: center;
+}
+footer .logo{
+    padding-top: 27PX;
+
+}
 
 }

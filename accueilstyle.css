@@ -1,0 +1,82 @@
+.con1 {
+    width: 1046px;
+    height: 587px;
+    margin-top: 26px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(IMAGE/p1.jpg);
+    background-size: cover;
+
+}
+
+.con1 button {
+    width: 200px;
+    height: 40px;
+    font-size: large;
+    /* margin-left: 389px;
+margin-top: 514px; */
+    text-align: center;
+    margin-left: 44%;
+    margin-top: 48%;
+    background: #ED3D31;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.06);
+    border-radius: 50px;
+}
+
+.con2 {
+    width: 1075px;
+    height: 956px;
+    margin-top: 56px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(IMAGE/p2.png);
+    background-size: cover;
+}
+
+.con2 h6 {
+    width: 196px;
+    height: 25px;
+    padding-left: 477px;
+    padding-top: 118PX;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 11px;
+    line-height: 25px;
+    text-align: right;
+    letter-spacing: 2.2px;
+    text-transform: uppercase;
+    color: #4F4E4E;
+    letter-spacing: 2.2px;
+    text-transform: uppercase;
+    margin-block: 0px;
+}
+
+.con2 h3 {
+    width: 398px;
+    height: 50px;
+    padding-left: 468px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 47px;
+    text-align: right;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    color: #111111;
+    margin-block: 0px;
+}
+
+.con2 p {
+    width: 581px;
+    height: 150px;
+    padding-left: 465px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.15px;
+    color: #4F4E4E;
+    margin-block: 0px;
+}

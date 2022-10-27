@@ -4,19 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitaka</title>
+    <!-- Roboto Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500;1,700&display=swap" rel="stylesheet">
+    <!--Fichier css-->
     <link rel="stylesheet" href="style.css">
-    <title>hitaka A propos</title>
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="aboutstyle.css">
+    <!--Icons-->
+    <script src="https://kit.fontawesome.com/c123859339.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<nav>
-<div><img src="IMAGE/LOGO.png" alt=""></div>
-<div class="menu">
-    <a href="index.html">Accueil</a>
-    <a href="carte.html">Cart</a>
-    <a href="About.html">A propos</a>
-    <a href="contact.html">Contact</a>
-</div>
-</nav>
+
+    <section class="header">
+        <!--barre de navigation-->
+        <nav>
+            <a href=""><img src="IMAGE/LOGO.png" alt="Hitaka logo"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hide()"></i>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="carte.html">Carte</a></li>
+                    <li><a href="About.html">A Propos</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="show()"></i>
+        </nav>
 <section>
     <div class="description1">
         <div>
@@ -42,19 +56,20 @@
 <footer>
     <div>
     <img class="logo" src="IMAGE/FOOTER-logo.png" alt="">
-    <div class="iconMedia">
+    </div >
+    <div class="footercontact">
+      <h3>contact</h3>
+      <div class="icon1"><img src="IMAGE/@.png" alt=""> <text>hitaka@gmail.com</text> </div>
+      <div class="icon1"><img src="IMAGE/MAPS.png" alt=""><text>Adderss</text></div>
+      <div class="icon1"><img src="IMAGE/mobile.png" alt=""><text>0000000000</text></div>
+      <div class="iconMedia">
         <img src="IMAGE/whatsapp.png" alt="">
         <img src="IMAGE/fb.png" alt="">
         <img src="IMAGE/twit.png" alt="">
         <img src="IMAGE/insta.png" alt="">
     </div>
-    </div >
-    <div class="footercontact">
-        <h3>contact</h3>
-        <div class="icon1"><img src="IMAGE/@.png" alt=""> <text>hitaka@gmail.com</text> </div>
-        <div class="icon1"><img src="IMAGE/MAPS.png" alt=""><text>Adderss</text></div>
-        <div class="icon1"><img src="IMAGE/mobile.png" alt=""><text>0000000000</text></div>
-   </div>
+ </div>
 </footer>
+<Script src="NAVBAR.JS"></Script>
 </body>
 </html>

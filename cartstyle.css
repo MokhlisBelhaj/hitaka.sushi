@@ -1,0 +1,64 @@
+/* carte */
+.cart {
+    display: flex;
+}
+
+select {
+    font-size: 26px;
+    height: 30px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent;
+}
+
+.catégories {
+    margin-top: 15px;
+    width: 40%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.cartMenu {
+    width: 100%;
+}
+
+.choix {
+    width: 100%;
+}
+
+.choix h1 {
+    text-align: center;
+}
+
+.product {
+    width: fit-content;
+    margin-right: 10px;
+
+}
+
+.produits {
+    display: inline;
+}
+
+.product_info {
+    display: flex;
+    width: fit-content;
+    gap: 30px;
+}
+
+.product_prix {
+    display: flex;
+    align-items: flex-end;
+    width: fit-content;
+}
+
+.choix select {
+    width: 100%;
+    height: 40%;
+}
+
+.choix button {
+    float: right;
+}

@@ -1,0 +1,48 @@
+
+/* about */
+.description1 {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.description1 img {
+    width: 538px;
+    height: 369px;
+}
+
+.description1 h1,
+p {
+    width: 560px;
+    height: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    line-height: 25px;
+}
+
+.description2 h2 {
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 33px;
+    ;
+    letter-spacing: 0.2px;
+}
+
+.description2 p {
+    width: 606px;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: #878787;
+    margin-top: 5px;
+}
+
+.aboutimg {
+    justify-content: space-around;
+    display: flex;
+}
