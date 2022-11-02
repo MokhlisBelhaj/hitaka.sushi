@@ -2,8 +2,11 @@
 /* about */
 .description1 {
     margin-top: 24px;
+    height: auto;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 100px;
 }
 
 .description1 img {
@@ -12,12 +15,14 @@
 }
 
 .description1 h1,
-p {
+p, text {
     width: 560px;
     height: 15px;
     font-family: 'Roboto';
     font-style: normal;
     line-height: 25px;
+    text-align: center;
+    align-items: center;
 }
 
 .description2 h2 {
@@ -27,6 +32,12 @@ p {
     font-size: 33px;
     ;
     letter-spacing: 0.2px;
+}
+.description2 text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
 }
 
 .description2 p {
@@ -45,4 +56,5 @@ p {
 .aboutimg {
     justify-content: space-around;
     display: flex;
+    flex-wrap: wrap;
 }

@@ -33,9 +33,21 @@ select {
 }
 
 .product {
-    width: fit-content;
-    margin-right: 10px;
+    width: 80%;
+    height: 0%;
 
+    margin-right: 10px;
+    background-color: aqua;
+
+}
+.product .d{
+    width: auto;
+    height: auto;
+
+}
+.product img{
+width: 100%;
+height: fit-content;
 }
 
 .produits {

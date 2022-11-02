@@ -9,7 +9,7 @@
     flex: auto;
     margin-top: 40px;
     background-image: url(IMAGE/contact.jpg);
-    /* background-size: cover; */
+     background-size: cover;
 block-size: auto;
 }
 
@@ -38,13 +38,18 @@ block-size: auto;
     margin-top: 20px;
 }
 
-.contactMSG input,
-textarea {
+.contactMSG input{
 
     width: 50%;
     height: 38px;
     
 
+    background: #FFFFFF;
+    box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
+}
+.contact textarea{
+    height: 80px;
+    width: 50%;
     background: #FFFFFF;
     box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
 }
