@@ -2,32 +2,23 @@
 .contact {
     display: flex;
     flex-direction: column;
-    width:100%;
-    /* align-items: center; */
-    justify-content: space-around;
-    height: 70vh;
+    height: fit-content;
     flex: auto;
     margin-top: 40px;
     background-image: url(IMAGE/contact.jpg);
-     background-size: cover;
-block-size: auto;
+    background-size: cover;
 }
 
 .mapouter {
     justify-content: center;
     margin-top: 25px;
-    /* background-color: #ED3D31; */
-    /* width: 100%;
-    height: 100%; */
 }
 
 .contactMSG {
-    /* margin-left: 200px; */
     display: flex;
     margin-left: 200px;
     flex-direction: column;
     width: auto;
-    /* background-color: #ED3D31; */
 }
 
 .send {
@@ -42,8 +33,6 @@ block-size: auto;
 
     width: 50%;
     height: 38px;
-    
-
     background: #FFFFFF;
     box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
 }
@@ -55,7 +44,6 @@ block-size: auto;
 }
 .contactMSG h1{
     color: white;
-    font-weight: 100;
 }
 .contactMSG label {
     width: 59px;

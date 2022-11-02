@@ -1,6 +1,5 @@
 .con1 {
-    width: 1046px;
-    height: 587px;
+    width: 90%;
     margin-top: 26px;
     margin-left: auto;
     margin-right: auto;
@@ -10,6 +9,7 @@
 }
 
 .con1 button {
+    cursor: pointer;
     width: 200px;
     height: 40px;
     font-size: large;
@@ -24,59 +24,50 @@ margin-top: 514px; */
 }
 
 .con2 {
-    width: 1075px;
-    height: 956px;
+    justify-content:space-between;
     margin-top: 56px;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url(IMAGE/p2.png);
-    background-size: cover;
+    text-align: center;
 }
 
-.con2 h6 {
-    width: 196px;
-    height: 25px;
-    padding-left: 477px;
-    padding-top: 118PX;
+.con2 img{
+    margin: auto;
+    width:80%;
+    border-radius: 25px;
+}
+ h6 {
+    font-size: x-large;
     font-family: 'Roboto';
     font-style: normal;
-    font-size: 11px;
     line-height: 25px;
-    text-align: right;
+    text-align:center;
     letter-spacing: 2.2px;
     text-transform: uppercase;
     color: #4F4E4E;
-    letter-spacing: 2.2px;
     text-transform: uppercase;
-    margin-block: 0px;
 }
 
 .con2 h3 {
-    width: 398px;
-    height: 50px;
-    padding-left: 468px;
+    font-size: xx-large;
+    text-align: center;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 33px;
     line-height: 47px;
-    text-align: right;
     letter-spacing: 0.2px;
     text-transform: uppercase;
     color: #111111;
-    margin-block: 0px;
 }
 
 .con2 p {
-    width: 581px;
-    height: 150px;
-    padding-left: 465px;
+    margin: auto;
+    margin-bottom: 5%;
+    width: 60%;
+    font-size: larger;
+    align-content: center;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
     line-height: 25px;
     letter-spacing: 0.15px;
     color: #4F4E4E;
-    margin-block: 0px;
 }

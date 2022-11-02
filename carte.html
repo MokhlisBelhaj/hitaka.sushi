@@ -1,241 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Hitaka</title>
-        <!-- Roboto Font-->
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500;1,700&display=swap" rel="stylesheet">
-        <!--Fichier css-->
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="responsive.css">
-        <link rel="stylesheet" href="cartstyle.css">
-        <!--Icons-->
-        <script src="https://kit.fontawesome.com/c123859339.js" crossorigin="anonymous"></script>
-    </head>
-<body>
-        <!--barre de navigation-->
-        <nav>
-            <a href=""><img src="IMAGE/LOGO.png" alt="Hitaka logo"></a>
-            <i class="fa fa-bars" onclick="show()"></i>
-            <div class="nav-links" id="nav-links">
-                <i class="fa fa-times" onclick="hide()"></i>
-                <ul>
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="carte.html">Carte</a></li>
-                    <li><a href="About.html">A Propos</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-<div class="cart">
-<div class="cartMenu">
-    <select name="" id="">
-    <option value="0" selectet>catégories</option>
-    <option value="">SALADE</option>
-    <option value="">NOS SUSHI</option>
-    <option value="">OBENTO</option>
-    <option value="">PLAT</option>
-    <option value="">BOISSON</option>
-    <option value="">DESSERT</option>
-</select>
-<div><div class="catégories" >
-    <div class="product">
-        <div class="d">
-            <img src="IMAGE/Group 11.png" alt="">
-        </div>
-        <div class="product_info"> 
-            <h3>SALADE</h3>
-            <div class="product_prix">
-                <span>25</span>
-                <text> Dhs</text>
-                <button>+</button>
-            </div>
-        </div>
-    </div>
-    <div class="product">
-        <div class="d">
-            <img src="IMAGE/Group 12.png" alt="">
-        </div>
-        <div class="product_info"> 
-            <h3>DESSERT </h3>
-            <div class="product_prix">
-                <span>40</span>
-                <text> Dhs</text>
-                <button>+</button>
-            </div>
-        </div>
-    </div>
-    <div class="product">
-        <div class="d">
-            <img src="IMAGE/Group 13.png" alt="">
-        </div>
-        <div class="product_info"> 
-            <h3>HITAKA</h3>
-            <div class="product_prix">
-                <span>40</span>
-                <text> Dhs</text>
-                <button>+</button>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="catégories" >
-    <div class="product">
-        <div class="d">
-            <img src="IMAGE/Group 14.jpg" alt="">
-        </div>
-        <div class="product_info"> 
-            <h3>CALIFORNIA CLASSIC</h3>
-            <div class="product_prix">
-                <span>40</span>
-                <text> Dhs</text>
-                <button>+</button>
-            </div>
-        </div>
-    </div>
-    <div class="product">
-        <div class="d">
-            <img src="IMAGE/Group 15.png" alt="">
-        </div>
-        <div class="product_info"> 
-            <h3>CALIFORNIA CLASSIC</h3>
-            <div class="product_prix">
-                <span>40</span>
-                <text> Dhs</text>
-                <button>+</button>
-            </div>
-        </div>
-    </div>
-    <div class="product">
-        <div class="d">
-            <img src="IMAGE/Group 16.jpg" alt="">
-        </div>
-        <div class="product_info"> 
-            <h3>CALIFORNIA CLASSIC</h3>
-            <div class="product_prix">
-                <span>40</span>
-                <text> Dhs</text>
-                <button>+</button>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="catégories" >
-    <div class="product">
-        <div class="d">
-            <img src="IMAGE/Group 21.jpg" alt="">
-        </div>
-        <div class="product_info"> 
-            <h3>CALIFORNIA CLASSIC</h3>
-            <div class="product_prix">
-                <span>40</span>
-                <text> Dhs</text>
-                <button>+</button>
-            </div>
-        </div>
-    </div>
-    <div class="product">
-        <div class="d">
-            <img src="IMAGE/Group 18.jpg" alt="">
-        </div>
-        <div class="product_info"> 
-            <h3>CALIFORNIA CLASSIC</h3>
-            <div class="product_prix">
-                <span>40</span>
-                <text> Dhs</text>
-                <button>+</button>
-            </div>
-        </div>
-    </div>
-    <div class="product">
-        <div class="d">
-            <img src="IMAGE/Group 19.jpg" alt="">
-        </div>
-        <div class="product_info"> 
-            <h3>CALIFORNIA CLASSIC</h3>
-            <div class="product_prix">
-                <span>40</span>
-                <text> Dhs</text>
-                <button>+</button>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="catégories" >
-    <div class="product">
-        <div class="d">
-            <img src="IMAGE/Group 20.jpg" alt="">
-        </div>
-        <div class="product_info"> 
-            <h3>CALIFORNIA CLASSIC</h3>
-            <div class="product_prix">
-                <span>40</span>
-                <text> Dhs</text>
-                <button>+</button>
-            </div>
-        </div>
-    </div>
-    <div class="product">
-        <div class="d">
-            <img src="IMAGE/Group 17.jpg" alt="">
-        </div>
-        <div class="product_info"> 
-            <h3>CALIFORNIA CLASSIC</h3>
-            <div class="product_prix">
-                <span>40</span>
-                <text> Dhs</text>
-                <button>+</button>
-            </div>
-        </div>
-    </div>
-    <div class="product">
-        <div class="d">
-            <img src="IMAGE/Group 22.jpg" alt="">
-        </div>
-        <div class="product_info"> 
-            <h3>CALIFORNIA CLASSIC</h3>
-            <div class="product_prix">
-                <span>40</span>
-                <text> Dhs</text>
-                <button>+</button>
-            </div>
-        </div>
-    </div>
-</div>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitaka</title>
+    <!-- Roboto Font-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500;1,700&display=swap"
+      rel="stylesheet">
+    <!--Fichier css-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cartstyle.css">
+    <link rel="stylesheet" href="responsive.css">
+    <!--Icons-->
+    <script src="https://kit.fontawesome.com/c123859339.js"
+      crossorigin="anonymous"></script>
 
-</div>
+  </head>
+  <body>
+    <!--barre de navigation-->
+    <nav>
+      <a href=""><img src="IMAGE/LOGO.png" alt="Hitaka logo"></a>
+      <i class="fa fa-bars" onclick="show()"></i>
+      <div class="nav-links" id="nav-links">
+        <i class="fa fa-times" onclick="hide()"></i>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="carte.html">Carte</a></li>
+          <li><a href="About.html">A Propos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="cart">
+      <div style="width: 60%;">
+        <div id="myBtnContainer">
+          <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+          <button class="btn" onclick="filterSelection('SALAD')"> SALAD</button>
+          <button class="btn" onclick="filterSelection('SUSHI')"> SUSHI</button>
+          <button class="btn" onclick="filterSelection('PLAT')"> PLAT</button>
+          <button class="btn" onclick="filterSelection('SODA')"> BOISSON</button>
+        </div>
 
-
-</div>
-<div class="choix">
-    <h1>vos choix</h1>
-    <hr>
-    <select name="" id="" multiple></select>
-    <button>TOTAL</button>
-    
-</div>
-
-</div>
-
-<footer>
-    <div>
-    <img class="logo" src="IMAGE/FOOTER-logo.png" alt="">
-    </div >
-    <div class="footercontact">
-      <h3>contact</h3>
-      <div class="icon1"><img src="IMAGE/@.png" alt=""> <text>hitaka@gmail.com</text> </div>
-      <div class="icon1"><img src="IMAGE/MAPS.png" alt=""><text>Adderss</text></div>
-      <div class="icon1"><img src="IMAGE/mobile.png" alt=""><text>0000000000</text></div>
-      <div class="iconMedia">
-           <img src="IMAGE/whatsapp.png" alt="">
-           <img src="IMAGE/fb.png" alt="">
-           <img src="IMAGE/twit.png" alt="">
-           <img src="IMAGE/insta.png" alt="">
-       </div>
+        <div class="container">
+          <div class="filterDiv SUSHI ">
+            <div >
+              <img src="IMAGE/Group 23.png" alt="">
+              <div><h3>SUSHI </h3>
+                <span>25 DH</span>
+              </div>
+              <BUtton id="bttn1" onclick="SUSHI()">+</BUtton></div></div>
+          <div class="filterDiv SUSHI ">
+            <div>
+              <img src="IMAGE/Group 22.png" alt="">
+              <div><h3>SUSHI 1 </h3>
+                <span>25 DH</span>
+              </div>
+              <BUtton id="bttn2" onclick="SUSHI1()">+</BUtton></div></div>
+          <div class="filterDiv SUSHI">
+            <div>
+              <img src="IMAGE/Group 21.png" alt="">
+              <div> <h3>SUSHI 2</h3>
+                <span>25 DH</span>
+              </div>
+              <BUtton id="bttn3" onclick="SUSHI2()">+</BUtton></div></div>
+          <div class="filterDiv SALAD">
+            <div >
+              <img src="IMAGE/Group 11.png" alt="">
+              <div><h3>SALAD </h3>
+                <span>25 DH</span>
+              </div>
+              <BUtton id="bttn4" onclick="salade1()">+</BUtton></div></div>
+          <div class="filterDiv SUSHI">
+            <div >
+              <img src="IMAGE/Group 23.png" alt="">
+              <div><h3>SUSHI 3</h3>
+                <span>25 DH</span>
+              </div>
+              <BUtton id="bttn5" onclick="SUSHI3()">+</BUtton></div></div>
+          <div class="filterDiv PLAT">
+            <div >
+              <img src="IMAGE/Group 13.png" alt="">
+              <div> <h3>HITAKA plat </h3>
+                <span>400 DH</span>
+              </div>
+              <BUtton id="bttn6" onclick="plat1()">+</BUtton></div></div>
+          <div class="filterDiv SUSHI">
+            <div >
+              <img src="IMAGE/Group 14.png" alt="">
+              <div> <h3>SUSHI 4</h3>
+                <span>25 DH</span>
+              </div>
+              <BUtton id="bttn7"onclick="SUSHI4()">+</BUtton></div></div>
+          <div class="filterDiv SODA">
+            <div >
+              <img src="IMAGE/Group 15.png" alt="">
+              <div> <h3>COLA</h3>
+                <span>15 DH</span>
+              </div>
+              <BUtton id="bttn8" onclick="coca()">+</BUtton></div></div>
+          <div class="filterDiv SUSHI">
+            <div>
+              <img src="IMAGE/Group 16.png" alt="">
+              <div><h3>SUSHI 5</h3>
+                <span>25 DH</span>
+              </div>
+              <BUtton id="bttn9"onclick="SUSHI5()">+</BUtton></div></div>
+          <div class="filterDiv SUSHI ">
+            <div >
+              <img src="IMAGE/Group 17.png" alt="">
+              <div><h3>SUSHI 6</h3>
+                <span>25 DH</span>
+              </div>
+              <BUtton id="bttn10"onclick="SUSHI6()">+</BUtton></div></div>
+          <div class="filterDiv SUSHI">
+            <div >
+              <img src="IMAGE/Group 18.png" alt="">
+              <div><h3>SUSHI 7</h3>
+                <span>25 DH</span>
+              </div>
+              <BUtton id="bttn11"onclick="SUSHI7()">+</BUtton></div></div>
+          <div class="filterDiv SUSHI">
+            <div>
+              <img src="IMAGE/Group 19.png" alt="">
+              <div><h3>SUSHI 8</h3>
+                <span>25 DH</span>
+              </div>
+              <BUtton id="bttn12"onclick="SUSHI8()">+</BUtton></div></div>
+          <div class="filterDiv SODA">
+            <div>
+              <img src="IMAGE/Group 24.png" alt="">
+              <div><h3>Cocktail the</h3>
+                <span>25 DH</span>
+              </div>
+              <BUtton id="bttn13" onclick="the()">+</BUtton></div></div>
+          <div class="filterDiv SODA">
+            <div>
+              <img src="IMAGE/Group 25.png" alt="">
+              <div><h3>THE VERT</h3>
+                <span>20 DH</span>
+              </div>
+              <BUtton id="bttn14" onclick="the1()">+</BUtton></div></div>
+          <div class="filterDiv SODA">
+            <div>
+              <img src="IMAGE/Group 26.png" alt="">
+              <div><h3>JUS</h3>
+                <span>25 DH</span>
+              </div>
+              <BUtton id="bttn15" onclick="jus()">+</BUtton></div></div>
+        </div>
+      </div>
+      <div  class="choix">
+        <h1 style="margin-bottom:0% ;">vos choix</h1>
+        <hr style="width: 100% ;">
+        <div id="choix"> </div>
+        <hr style="width: 100% ;">
+        <button onclick="total()">TOTAL</button>
+      </div>
     </div>
-</footer>
-<Script src="NAVBAR.JS"></Script>
-</body>
+    <footer>
+      <div>
+        <img class="logo" src="IMAGE/FOOTER-logo.png" alt="">
+      </div>
+      <div class="footercontact">
+        <h3>contact</h3>
+        <div class="icon1"><img src="IMAGE/@.png" alt=""> <text>hitaka@gmail.com</text>
+        </div>
+        <div class="icon1"><img src="IMAGE/MAPS.png" alt=""><text>Adderss</text></div>
+        <div class="icon1"><img src="IMAGE/mobile.png" alt=""><text>0000000000</text></div>
+        <div class="iconMedia">
+          <img src="IMAGE/whatsapp.png" alt="">
+          <img src="IMAGE/fb.png" alt="">
+          <img src="IMAGE/twit.png" alt="">
+          <img src="IMAGE/insta.png" alt="">
+        </div>
+      </div>
+    </footer>
+    <Script src="NAVBAR.JS"></Script>
+    <script src="filtre.js"></script>
+  </body>
 </html>
