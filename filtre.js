@@ -394,5 +394,9 @@ function jus(){
 }
 
 function total(){
+  let divT = document.querySelector("#choix");
   alert(totalP+ "DH");
+  while (divT.hasChildNodes()) {
+    divT.removeChild(divT.firstChild)
+}
 }
