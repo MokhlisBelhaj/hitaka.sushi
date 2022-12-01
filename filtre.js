@@ -395,7 +395,9 @@ function jus(){
 
 function total(){
   let divT = document.querySelector("#choix");
+   
   alert(totalP+ "DH");
+    PRODUIT1 = 1, PRODUIT2 = 1, PRODUIT3 = 1,PRODUIT4 = 1,PRODUIT5 = 1, PRODUIT6 = 1, PRODUIT7 = 1,PRODUIT8 = 1,PRODUIT9 = 1, salade1qu = 1, soda1 = 1, the1qu = 1,the2qu=1, PLAT1qu = 1, jus1 = 1, totalP = 0;
   while (divT.hasChildNodes()) {
     divT.removeChild(divT.firstChild)
 }
